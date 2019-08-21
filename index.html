@@ -1,64 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Welcome To My Personal Portfolio</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Adina Cianciotto Personal Portfolio" />
-		<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="css/set.css" />
-        <link rel="stylesheet" type="text/css" href="css/style.css" />
-		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
-    </head>
-    <body>
-        <div class="container">
-		
-			<div class="st-container">
-			
-				<input type="radio" name="radio-set" checked="checked" id="st-control-1"/>
-				<a href="#st-panel-1">About</a>
-				<input type="radio" name="radio-set" id="st-control-2"/>
-				<a href="#st-panel-2">Projects</a>
-				<input type="radio" name="radio-set" id="st-control-3"/>
-				<a href="#st-panel-3">Resume</a>
-				<input type="radio" name="radio-set" id="st-control-4"/>
-				<a href="#st-panel-4">Contact</a>
-				<input type="radio" name="radio-set" id="st-control-5"/>
-				<a href="#st-panel-5">Other</a>
-				
-				<div class="st-scroll">
-				
-					<section class="st-panel" id="st-panel-1">
-						<div class="st-deco" data-icon="H"></div>
-						<h2>About</h2>
-						<p>My name is Adina Cianciotto. I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
-					</section>
-					
-					<section class="st-panel st-color" id="st-panel-2">
-						<div class="st-deco" data-icon="2"></div>
-						<h2>Projects</h2>
-					</section>
-					
-					<section class="st-panel" id="st-panel-3">
-						<div class="st-deco" data-icon="B"></div>
-						<h2>Resume</h2>
-					</section>
-					
-					<section class="st-panel st-color" id="st-panel-4">
-						<div class="st-deco" data-icon="x"></div>
-						<h2>Contact</h2>
-					</section>
-					
-					<section class="st-panel" id="st-panel-5">
-						<div class="st-deco" data-icon="Ç"></div>
-						<h2>Other</h2>
-					</section>
 
-				</div><!-- // st-scroll -->
-				
-			</div><!-- // st-container -->
-			
-        </div>
-	</body>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Welcome To My Personal Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Adina Cianciotto's Personal Portfolio" />
+	<meta name="author" content="">
+
+	<title>My Portfolio</title>
+
+	<!--Custom Styles-->
+	<link rel="stylesheet" type="text/css" href="css/set.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!--Custom Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Acme|Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Acme|El+Messiri|Quicksand&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,700' rel='stylesheet' type='text/css'>
+
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+	<!--Animate.css-->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
+	<!--Sakura Effect-->
+	<link rel="stylesheet" href="node_modules/sakura-js/dist/sakura.min.css">
+</head>
+
+<body>
+
+	<body background="img/white-flowers-10.jpg"></body>
+
+	<script src="node_modules/sakura-js/dist/sakura.min.js"></script>
+	<script>
+		var sakura = new Sakura('body');
+	</script>
+
+	<div class="container">
+		<div class="st-container">
+
+			<input type="radio" name="radio-set" checked="checked" id="st-control-1" />
+			<a href="#st-panel-1">About</a>
+			<input type="radio" name="radio-set" id="st-control-2" />
+			<a href="#st-panel-2">Projects</a>
+			<input type="radio" name="radio-set" id="st-control-3" />
+			<a href="#st-panel-3">Resume</a>
+			<input type="radio" name="radio-set" id="st-control-4" />
+			<a href="#st-panel-4">Contact</a>
+			<input type="radio" name="radio-set" id="st-control-5" />
+			<a href="#st-panel-5">Other</a>
+
+			<div class="st-scroll">
+
+				<section class="st-panel" id="st-panel-1">
+					<div class="st-deco" data-icon="A"></div>
+					<h2>About</h2>
+					<h2 class="animated bounceInDown" class="mb-0">Adina
+						<span class="text-primary">Cianciotto</span>
+					</h2>
+					<span class="d-inline-block">
+						<img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+							style="width: 400px; height:500px;" src="img/ProfilePicture.jpeg" alt="Profile Picture">
+					</span>
+					<div class="contactInfo"> Mundelein, IL 60060 · (857) 571-2871 ·
+						<a href="mailto:alcianciotto@gmail.com" id="email">alcianciotto@gmail.com</a>
+					</div>
+					<p>
+						Hi. My name is Adina Cianciotto. I am a Northwestern graduate embarking on the journey to become
+						a software engineer. I spend a large amount of my free time exploring the latest
+						technology advancements in the front-end web development world.</p>
+
+					<!-- <div class="social-icons">
+								<a href="https://github.com/adi868" target="_blank">
+								  <i class="fab fa-github"></i>
+								</a>
+								<a href="https://www.linkedin.com/in/adina-cianciotto/" target="_blank">
+								  <i class="fab fa-linkedin-in"></i>
+								</a>
+							  </div>
+							</div> -->
+				</section>
+
+				<section class="st-panel st-color" id="st-panel-2">
+					<div class="st-deco" data-icon="A"></div>
+					<h2>Projects</h2>
+					<div class="resume-content">
+						<h3 class="mb-0">Northwestern University</h3>
+						<div class="subheading mb-3">Bachelor of Arts</div>
+						<div>Cognitive Science</div>
+						<p>GPA: 3.59</p>
+					</div>
+				</section>
+
+				<section class="st-panel" id="st-panel-3">
+					<div class="st-deco" data-icon="R"></div>
+					<h2>Resume</h2>
+					<div>
+						<button type="button" class="btn btn-raised btn-primary"> <a
+								href="files/Adina_Cianciotto_Resume.pdf" target="_blank">Resume</a></button>
+					</div>
+					<br>
+					<embed src="files/Adina_Cianciotto_Resume.pdf" target="_blank" height="500px" width="300px"
+						;></embed>
+				</section>
+
+				<section class="st-panel st-color" id="st-panel-4">
+					<div class="st-deco" data-icon="C"></div>
+					<h2>Contact</h2>
+				</section>
+
+				<section class="st-panel" id="st-panel-5">
+					<div class="st-deco" data-icon="O"></div>
+					<h2>Other</h2>
+				</section>
+
+			</div><!-- // st-scroll -->
+
+		</div><!-- // st-container -->
+
+		<footer>
+			<div class="container">
+				Copyright &copy;
+			</div>
+		</footer>
+
+	</div>
+
+	<!--Jquery-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+	</script>
+</body>
+
 </html>
+
+<!-- <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+<ul class="list-inline dev-icons">
+  <li class="list-inline-item">
+	<i class="fab fa-html5"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-css3-alt"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-js-square"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-react"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-node-js"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-sass"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-less"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-wordpress"></i>
+  </li>
+  <li class="list-inline-item">
+	<i class="fab fa-npm"></i>
+  </li>
+</ul> -->
