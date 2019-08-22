@@ -7,7 +7,7 @@
 	<title>Welcome To My Personal Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Adina Cianciotto's Personal Portfolio" />
-	<meta name="author" content="">
+	<meta name="author" content="Adina Cianciotto">
 
 	<title>My Portfolio</title>
 
@@ -35,9 +35,6 @@
 </head>
 
 <body>
-
-	<body background="img/white-flowers-10.jpg"></body>
-
 	<script src="node_modules/sakura-js/dist/sakura.min.js"></script>
 	<script>
 		var sakura = new Sakura('body');
@@ -61,22 +58,26 @@
 
 				<section class="st-panel" id="st-panel-1">
 					<div class="st-deco" data-icon="A"></div>
-					<h2>About</h2>
-					<h2 class="animated bounceInDown" class="mb-0">Adina
-						<span class="text-primary">Cianciotto</span>
-					</h2>
-					<span class="d-inline-block">
-						<img class="img-fluid img-profile rounded-circle mx-auto mb-2"
-							style="width: 400px; height:500px;" src="img/ProfilePicture.jpeg" alt="Profile Picture">
-					</span>
-					<div class="contactInfo"> Mundelein, IL 60060 · (857) 571-2871 ·
-						<a href="mailto:alcianciotto@gmail.com" id="email">alcianciotto@gmail.com</a>
+					<div id="aboutMe" class="container">
+						<!-- <h2>About</h2> -->
+						<h2 class="animated bounceInDown">Adina
+							<span class="text-primary d-inline">Cianciotto</span>
+						</h2>
+						<span class="d-inline">
+							<img class="img-fluid img-profile rounded-circle mx-auto mb-2"
+								style="width: 400px; height:500px;" src="img/ProfilePicture.jpeg" alt="Profile Picture">
+						</span>
+						<div class="contactInfo"> Mundelein, IL 60060 · (847) 571-2871 ·
+							<a href="mailto:alcianciotto@gmail.com" id="email">alcianciotto@gmail.com</a>
+						</div>
+						<div class="Info d-inline">
+						<span>
+							Hi. My name is Adina Cianciotto. I am a Northwestern graduate embarking on the journey to
+							become
+							a software engineer. I spend a large amount of my free time exploring the latest
+							technology advancements in the front-end web development world.</span>
+						</div>
 					</div>
-					<p>
-						Hi. My name is Adina Cianciotto. I am a Northwestern graduate embarking on the journey to become
-						a software engineer. I spend a large amount of my free time exploring the latest
-						technology advancements in the front-end web development world.</p>
-
 					<!-- <div class="social-icons">
 								<a href="https://github.com/adi868" target="_blank">
 								  <i class="fab fa-github"></i>
@@ -89,7 +90,7 @@
 				</section>
 
 				<section class="st-panel st-color" id="st-panel-2">
-					<div class="st-deco" data-icon="A"></div>
+					<div class="st-deco" data-icon="P"></div>
 					<h2>Projects</h2>
 					<div class="resume-content">
 						<h3 class="mb-0">Northwestern University</h3>
