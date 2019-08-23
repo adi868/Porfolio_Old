@@ -168,7 +168,7 @@
 	-webkit-backface-visibility: hidden;
 }
 
-#resumeFile{
+#resumeFile {
 	text-shadow: 1px 1px 1px rgba(151, 24, 64, 0.2);
 	position: absolute;
 	width: 60%;
@@ -183,8 +183,8 @@
 a {
 	font-family: 'Josefin Slab', serif;
 	letter-spacing: 2px;
-  }
-  
+}
+
 /* .st-panel p {
 	position: absolute;
 	text-align: left;
@@ -288,9 +288,8 @@ a {
 	border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
-#name{
+#name {}
 
-}
 /* text-transform: uppercase; */
 
 #aboutMe {
@@ -311,6 +310,30 @@ a {
 	/* width: 80%;  */
 	top: 14%;
 	padding: 30px;
+	-webkit-backface-visibility: hidden;
+}
+
+.link{
+	margin-right:20px
+}
+
+#projects {
+	background: radial-gradient(circle, rgb(233, 184, 184), rgb(232, 219, 219));
+	text-align: left;
+	border: #cba0ad;
+	border-style: groove;
+	border-width: 5px;
+	font-size: 20px;
+	line-height: 20px;
+	color: #3d3030;
+	z-index: 2;
+	width: 900px;
+	height: 500px;
+	padding: 30px;
+	overflow: auto;
+	margin-top:100px;
+	justify-content: center;
+	align-items: center;
 	-webkit-backface-visibility: hidden;
 }
 
