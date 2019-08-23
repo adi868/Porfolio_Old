@@ -14,7 +14,7 @@
 	bottom: 0px;
 	width: 20%;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 17px;
 	height: 50px;
 	line-height: 50px;
 }
@@ -180,11 +180,6 @@
 	-webkit-backface-visibility: hidden;
 }
 
-a {
-	font-family: 'Josefin Slab', serif;
-	letter-spacing: 2px;
-}
-
 /* .st-panel p {
 	position: absolute;
 	text-align: left;
@@ -288,28 +283,23 @@ a {
 	border: 0.5rem solid rgba(255, 255, 255, 0.2);
 }
 
-#name {}
-
-/* text-transform: uppercase; */
-
 #aboutMe {
 	background: radial-gradient(circle, rgb(233, 184, 184), rgb(232, 219, 219));
-	position: absolute;
 	text-align: left;
-	/* border-radius: 80px; */
+	border-radius: 80px;
 	border: #cba0ad;
-	border-style: groove;
+	/* border-style: groove; */
+	margin-top:100px;
 	border-width: 5px;
 	font-size: 20px;
 	line-height: 20px;
 	color: #3d3030;
 	z-index: 2;
-	left: 35%;
 	width: 700px;
 	height: 500px;
-	/* width: 80%;  */
-	top: 14%;
 	padding: 30px;
+	justify-content: center;
+	align-items: center;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -335,6 +325,17 @@ a {
 	justify-content: center;
 	align-items: center;
 	-webkit-backface-visibility: hidden;
+}
+
+.tab{
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+a{
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 2px;
 }
 
 .st-scroll {
