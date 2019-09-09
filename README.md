@@ -7,3 +7,4 @@ This is my updated personal portfolio website! Check it out to learn a little mo
 * CSS3
 * JavaScript
 * Bootstrap 4
+* Animate.css
