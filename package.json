@@ -1,0 +1,25 @@
+{
+  "name": "Personal_Portfolio",
+  "version": "1.0.0",
+  "description": "This is my updated personal portfolio website! Check it out to learn a little more about me, my projects, and my background.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.2.1",
+    "sakura-js": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adi868/Personal_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adi868/Personal_Portfolio/issues"
+  },
+  "homepage": "https://github.com/adi868/Personal_Portfolio#readme"
+}
