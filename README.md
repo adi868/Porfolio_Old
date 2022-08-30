@@ -1,6 +1,6 @@
 # Personal_Portfolio
 
-This is an old version of my personal portfolio website. For a more updated version, please check out www.acianciotto.com.
+This is an old version of my personal portfolio website. For a more updated version, please check out https://www.acianciotto.com/.
 
 ## Technology Used
 * HTML5
